@@ -1,0 +1,20 @@
+x = 12
+PRINT(x)                       12
+z = x + y                      y is undefined
+PRINT(z)                       z is undefined
+z : y                          Bad syntax
+y = x + x
+z = x + y + y - y
+PRINT(z)                       36
+PRINT(y)                       24
+PRINT(X)                       Bad syntax
+PRINT(x)                       12
+x = x
+y =                            Bad syntax
+w = 9                          Bad syntax
+y = 9
+y = y + x - z - z
+x = x + x - x - x - x
+PRINT(x)                       -12
+PRINT(y)                       -51
+PRINT(z)                       36
